@@ -51,13 +51,29 @@
 }
 #hero{
   background-image: url(media/hero1.webp);
-  height: 90vh;
+  height: 88vh;
   width: 100%;
   background-size: cover;
-  background-position: top 25% right 10;
+  background-position: top 35% right 10;
   padding: 0 80px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+}
+#hero h4{
+  padding-bottom: 15px;
+  font-style: italic;
+  color: rgb(252, 252, 252);
+}
+#hero h1{
+  color: rgb(90, 203, 234);
+  font-size:25px;
+}
+#hero button{
+  background-image: url(media/button.png);
+  background-color: transparent;
+  color: #c60b0b;
+  border: 0;
+  border-radius: 10px;
 }
